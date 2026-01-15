@@ -1,0 +1,65 @@
+# =====================
+# Maven / Java
+# =====================
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.jar
+*.class
+*.log
+
+# =====================
+# Spring Boot
+# =====================
+HELP.md
+.springBeans
+.springBeans.lock
+
+# =====================
+# IDEs
+# =====================
+
+## IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+## VS Code
+.vscode/
+
+## Eclipse / STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.sts4-cache/
+
+## NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# =====================
+# OS / Misc
+# =====================
+.DS_Store
+Thumbs.db
+
+# =====================
+# Logs & temp
+# =====================
+logs/
+*.tmp
+*.swp
+
+# =====================
+# Generated sources
+# =====================
+/target/
+/**/target/
+/**/generated-sources/
+/**/generated-test-sources/
