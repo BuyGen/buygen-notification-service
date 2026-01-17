@@ -18,7 +18,8 @@
         <format>
             <label>
                 <pattern>
-                    application=${appName},
+                    job=${spring.application.name},
+                    application=${spring.application.name},
                     host=${HOSTNAME},
                     level=%level
                 </pattern>
